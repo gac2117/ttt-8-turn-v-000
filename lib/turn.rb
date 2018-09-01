@@ -8,7 +8,7 @@ end
 
 def input_to_index(input)
   input = input.to_i
-  index = input - 1 
+  index = input - 1
 end
 
 def move(board, index, character = "X")
@@ -26,7 +26,7 @@ def valid_move?(board, index)
 <<<<<<< HEAD
     else
 =======
-    else 
+    else
 >>>>>>> b5224813de2822b1b25de9c559c9f0e1180b0b17
       true
     end
