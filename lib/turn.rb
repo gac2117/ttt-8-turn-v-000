@@ -23,14 +23,11 @@ def valid_move?(board, index)
   if index.between?(0, 8)
     if position_taken?(board, index)
       false
-<<<<<<< HEAD
     else
-=======
-    else
->>>>>>> b5224813de2822b1b25de9c559c9f0e1180b0b17
       true
     end
   else
     false
   end
 end
+
